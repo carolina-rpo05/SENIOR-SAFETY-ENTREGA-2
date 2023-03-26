@@ -66,7 +66,7 @@ namespace TRABAJO_PROGRAMACIÓN
             this.txtusuario.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.txtusuario.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txtusuario.Location = new System.Drawing.Point(524, 175);
-            this.txtusuario.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.txtusuario.Margin = new System.Windows.Forms.Padding(4);
             this.txtusuario.Name = "txtusuario";
             this.txtusuario.Size = new System.Drawing.Size(344, 25);
             this.txtusuario.TabIndex = 1;
@@ -80,7 +80,7 @@ namespace TRABAJO_PROGRAMACIÓN
             this.txtcontraseña.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.txtcontraseña.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txtcontraseña.Location = new System.Drawing.Point(524, 246);
-            this.txtcontraseña.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.txtcontraseña.Margin = new System.Windows.Forms.Padding(4);
             this.txtcontraseña.Name = "txtcontraseña";
             this.txtcontraseña.Size = new System.Drawing.Size(344, 25);
             this.txtcontraseña.TabIndex = 2;
@@ -110,7 +110,7 @@ namespace TRABAJO_PROGRAMACIÓN
             this.btningresar.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btningresar.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
             this.btningresar.Location = new System.Drawing.Point(508, 341);
-            this.btningresar.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.btningresar.Margin = new System.Windows.Forms.Padding(4);
             this.btningresar.Name = "btningresar";
             this.btningresar.Size = new System.Drawing.Size(344, 49);
             this.btningresar.TabIndex = 3;
@@ -136,7 +136,7 @@ namespace TRABAJO_PROGRAMACIÓN
             // 
             this.pictureBox1.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox1.Image")));
             this.pictureBox1.Location = new System.Drawing.Point(407, 150);
-            this.pictureBox1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.pictureBox1.Margin = new System.Windows.Forms.Padding(4);
             this.pictureBox1.Name = "pictureBox1";
             this.pictureBox1.Size = new System.Drawing.Size(0, 0);
             this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
@@ -147,7 +147,7 @@ namespace TRABAJO_PROGRAMACIÓN
             // 
             this.pictureBox2.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox2.Image")));
             this.pictureBox2.Location = new System.Drawing.Point(467, 224);
-            this.pictureBox2.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.pictureBox2.Margin = new System.Windows.Forms.Padding(4);
             this.pictureBox2.Name = "pictureBox2";
             this.pictureBox2.Size = new System.Drawing.Size(49, 62);
             this.pictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
@@ -169,7 +169,7 @@ namespace TRABAJO_PROGRAMACIÓN
             // 
             this.pictureBox4.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox4.Image")));
             this.pictureBox4.Location = new System.Drawing.Point(45, 175);
-            this.pictureBox4.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.pictureBox4.Margin = new System.Windows.Forms.Padding(4);
             this.pictureBox4.Name = "pictureBox4";
             this.pictureBox4.Size = new System.Drawing.Size(253, 181);
             this.pictureBox4.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
@@ -182,7 +182,7 @@ namespace TRABAJO_PROGRAMACIÓN
             this.panel1.Controls.Add(this.pictureBox4);
             this.panel1.Dock = System.Windows.Forms.DockStyle.Left;
             this.panel1.Location = new System.Drawing.Point(0, 0);
-            this.panel1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.panel1.Margin = new System.Windows.Forms.Padding(4);
             this.panel1.Name = "panel1";
             this.panel1.Size = new System.Drawing.Size(333, 554);
             this.panel1.TabIndex = 13;
@@ -191,7 +191,7 @@ namespace TRABAJO_PROGRAMACIÓN
             // 
             this.errorProvider1.ContainerControl = this;
             // 
-            // Form1
+            // REGISTRO
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
@@ -210,8 +210,8 @@ namespace TRABAJO_PROGRAMACIÓN
             this.Controls.Add(this.USUARIO);
             this.DoubleBuffered = true;
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
-            this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
-            this.Name = "Form1";
+            this.Margin = new System.Windows.Forms.Padding(4);
+            this.Name = "REGISTRO";
             this.Opacity = 0.96D;
             this.Text = "REGISTRO";
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();

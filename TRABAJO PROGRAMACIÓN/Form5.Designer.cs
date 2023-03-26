@@ -286,7 +286,7 @@ namespace TRABAJO_PROGRAMACIÓN
             this.button2.BackColor = System.Drawing.Color.PowderBlue;
             this.button2.Font = new System.Drawing.Font("Century Gothic", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button2.Location = new System.Drawing.Point(689, 450);
-            this.button2.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.button2.Margin = new System.Windows.Forms.Padding(4);
             this.button2.Name = "button2";
             this.button2.Size = new System.Drawing.Size(429, 57);
             this.button2.TabIndex = 36;
@@ -369,9 +369,9 @@ namespace TRABAJO_PROGRAMACIÓN
             this.Controls.Add(this.lblFechaPrescripcion);
             this.Controls.Add(this.lblNombreProfesional);
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
-            this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.Margin = new System.Windows.Forms.Padding(4);
             this.Name = "Form5";
-            this.Text = "Medicamentos";
+            this.Text = "MEDICAMENTOS";
             ((System.ComponentModel.ISupportInitialize)(this.errorProvider1)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();

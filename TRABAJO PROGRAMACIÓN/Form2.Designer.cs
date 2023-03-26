@@ -62,16 +62,18 @@ namespace TRABAJO_PROGRAMACIÓN
             this.panelmenú.Controls.Add(this.button1);
             this.panelmenú.Dock = System.Windows.Forms.DockStyle.Left;
             this.panelmenú.Location = new System.Drawing.Point(0, 0);
+            this.panelmenú.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.panelmenú.Name = "panelmenú";
-            this.panelmenú.Size = new System.Drawing.Size(292, 464);
+            this.panelmenú.Size = new System.Drawing.Size(389, 571);
             this.panelmenú.TabIndex = 0;
             // 
             // pictureBox5
             // 
             this.pictureBox5.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox5.Image")));
-            this.pictureBox5.Location = new System.Drawing.Point(0, 424);
+            this.pictureBox5.Location = new System.Drawing.Point(0, 522);
+            this.pictureBox5.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.pictureBox5.Name = "pictureBox5";
-            this.pictureBox5.Size = new System.Drawing.Size(42, 40);
+            this.pictureBox5.Size = new System.Drawing.Size(56, 49);
             this.pictureBox5.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.pictureBox5.TabIndex = 2;
             this.pictureBox5.TabStop = false;
@@ -79,9 +81,10 @@ namespace TRABAJO_PROGRAMACIÓN
             // pictureBox2
             // 
             this.pictureBox2.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox2.Image")));
-            this.pictureBox2.Location = new System.Drawing.Point(0, 277);
+            this.pictureBox2.Location = new System.Drawing.Point(0, 341);
+            this.pictureBox2.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.pictureBox2.Name = "pictureBox2";
-            this.pictureBox2.Size = new System.Drawing.Size(65, 45);
+            this.pictureBox2.Size = new System.Drawing.Size(87, 55);
             this.pictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.pictureBox2.TabIndex = 2;
             this.pictureBox2.TabStop = false;
@@ -89,9 +92,10 @@ namespace TRABAJO_PROGRAMACIÓN
             // pictureBox3
             // 
             this.pictureBox3.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox3.Image")));
-            this.pictureBox3.Location = new System.Drawing.Point(0, 211);
+            this.pictureBox3.Location = new System.Drawing.Point(0, 260);
+            this.pictureBox3.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.pictureBox3.Name = "pictureBox3";
-            this.pictureBox3.Size = new System.Drawing.Size(65, 45);
+            this.pictureBox3.Size = new System.Drawing.Size(87, 55);
             this.pictureBox3.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.pictureBox3.TabIndex = 3;
             this.pictureBox3.TabStop = false;
@@ -99,9 +103,10 @@ namespace TRABAJO_PROGRAMACIÓN
             // pictureBox4
             // 
             this.pictureBox4.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox4.Image")));
-            this.pictureBox4.Location = new System.Drawing.Point(0, 142);
+            this.pictureBox4.Location = new System.Drawing.Point(0, 175);
+            this.pictureBox4.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.pictureBox4.Name = "pictureBox4";
-            this.pictureBox4.Size = new System.Drawing.Size(65, 45);
+            this.pictureBox4.Size = new System.Drawing.Size(87, 55);
             this.pictureBox4.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.pictureBox4.TabIndex = 4;
             this.pictureBox4.TabStop = false;
@@ -109,9 +114,10 @@ namespace TRABAJO_PROGRAMACIÓN
             // button3
             // 
             this.button3.Font = new System.Drawing.Font("Century Gothic", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button3.Location = new System.Drawing.Point(0, 277);
+            this.button3.Location = new System.Drawing.Point(0, 341);
+            this.button3.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.button3.Name = "button3";
-            this.button3.Size = new System.Drawing.Size(292, 45);
+            this.button3.Size = new System.Drawing.Size(389, 55);
             this.button3.TabIndex = 2;
             this.button3.Text = "Medicamentos";
             this.button3.UseVisualStyleBackColor = true;
@@ -120,9 +126,10 @@ namespace TRABAJO_PROGRAMACIÓN
             // button2
             // 
             this.button2.Font = new System.Drawing.Font("Century Gothic", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button2.Location = new System.Drawing.Point(0, 211);
+            this.button2.Location = new System.Drawing.Point(0, 260);
+            this.button2.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(292, 45);
+            this.button2.Size = new System.Drawing.Size(389, 55);
             this.button2.TabIndex = 1;
             this.button2.Text = "            Antecedentes médicos";
             this.button2.UseVisualStyleBackColor = true;
@@ -131,9 +138,10 @@ namespace TRABAJO_PROGRAMACIÓN
             // button1
             // 
             this.button1.Font = new System.Drawing.Font("Century Gothic", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button1.Location = new System.Drawing.Point(0, 142);
+            this.button1.Location = new System.Drawing.Point(0, 175);
+            this.button1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(292, 45);
+            this.button1.Size = new System.Drawing.Size(389, 55);
             this.button1.TabIndex = 0;
             this.button1.Text = "Datos personales";
             this.button1.UseVisualStyleBackColor = true;
@@ -143,30 +151,33 @@ namespace TRABAJO_PROGRAMACIÓN
             // 
             this.panellogo.Controls.Add(this.pictureBox1);
             this.panellogo.Location = new System.Drawing.Point(0, 0);
+            this.panellogo.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.panellogo.Name = "panellogo";
-            this.panellogo.Size = new System.Drawing.Size(151, 100);
+            this.panellogo.Size = new System.Drawing.Size(201, 123);
             this.panellogo.TabIndex = 1;
             // 
             // pictureBox1
             // 
             this.pictureBox1.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox1.Image")));
-            this.pictureBox1.Location = new System.Drawing.Point(3, 3);
+            this.pictureBox1.Location = new System.Drawing.Point(4, 4);
+            this.pictureBox1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(145, 94);
+            this.pictureBox1.Size = new System.Drawing.Size(193, 116);
             this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.pictureBox1.TabIndex = 3;
             this.pictureBox1.TabStop = false;
             // 
             // Form2
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(800, 464);
+            this.ClientSize = new System.Drawing.Size(1067, 571);
             this.Controls.Add(this.panellogo);
             this.Controls.Add(this.panelmenú);
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
+            this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.Name = "Form2";
-            this.Text = "Menú principal";
+            this.Text = "MENÚ PRINCIPAL";
             this.panelmenú.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox5)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
